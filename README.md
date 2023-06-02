@@ -32,6 +32,20 @@ Binary     0.1                   TASPowerShell        Get-InstanceGroup
 How to use?
 ---
 `Get-InstanceGroup -BoshManifestPath ./sample-instance-group.yaml`
+```shell
+Get-InstanceGroup -BoshManifestPath ./TASPowerShell/sample-instance-group.yaml
+
+InstanceGroupName NumberOfInstances
+----------------- -----------------
+database                          3
+diegocell                         9
+gorouter                          9
+
+```
+
+
+![Demo](https://github.com/hinyinlam/TASUtilities/blob/main/demo.gif)
+
 
 Limitation
 ---
