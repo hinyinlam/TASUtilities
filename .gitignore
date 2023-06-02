@@ -1,6 +1,9 @@
 # Common IntelliJ Platform excludes
 
 # User specific
+**/packaged
+.idea
+.idea/**
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
 **/.idea/shelf/*

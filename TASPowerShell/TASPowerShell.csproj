@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>TASPowerShell</PackageId>
+    <RootNamespace>FirstPowerShell</RootNamespace>
+    <TargetFramework>net7.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PowerShellStandard.Library" Version="5.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeploymentManifestStruct\DeploymentManifestStruct.csproj" />
+  </ItemGroup>
+
+  <Target Name="MyPreCompileTarget" AfterTargets="Build">
+    <Exec Command="./package-cmdlet.sh" />
+  </Target>
+
+  <Target Name="SpicNSpan" AfterTargets="Clean">
+    <!-- Remove obj folder -->
+    <RemoveDir Directories="$(BaseIntermediateOutputPath)" />
+    <!-- Remove bin folder -->
+    <RemoveDir Directories="$(BaseOutputPath)" />
+    <RemoveDir Directories="packaged/TASPowerShell" />
+    
+  </Target>
+
+</Project>
