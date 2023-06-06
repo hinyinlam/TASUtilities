@@ -18,7 +18,7 @@ ModuleVersion = '0.2'
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = 'd45605d2-011b-11ee-be56-0242ac120002'
+GUID = 'd45605d2-011b-11ee-be56-0242ac120003'
 
 # Author of this module
 Author = 'Hin Lam'

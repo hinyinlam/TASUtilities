@@ -24,7 +24,7 @@
     <RemoveDir Directories="$(BaseIntermediateOutputPath)" />
     <!-- Remove bin folder -->
     <RemoveDir Directories="$(BaseOutputPath)" />
-    <RemoveDir Directories="packaged/TASPowerShell" />
+    <RemoveDir Directories="./packaged" />
     
   </Target>
 

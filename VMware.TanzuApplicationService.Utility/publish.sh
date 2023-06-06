@@ -1,3 +1,3 @@
 #!env bash 
 
-env pwsh -Command Publish-Module -Name VMware.TanzuApplicationService.Utility -NuGetApiKey "$NUGET_API_KEY"
+env pwsh -Command Publish-Module -Name packaged/VMware.TanzuApplicationService.Utility -NuGetApiKey "$NUGET_API_KEY"
