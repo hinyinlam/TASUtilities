@@ -7,7 +7,7 @@ using System.Net;
 using System.Runtime.InteropServices.ComTypes;
 using DeploymentManifestParser;
 
-namespace VMware.PowerShell.TAS.Utility
+namespace VMware.TanzuApplicationService.Utility
 {
     [Cmdlet(VerbsCommon.Get, "InstanceGroup")]
     [OutputType(typeof(InstanceGroupRecord))]
