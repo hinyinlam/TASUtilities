@@ -12,7 +12,7 @@
 RootModule = 'VMware.TanzuApplicationService.Utility.dll'
 
 # Version number of this module.
-ModuleVersion = '0.1'
+ModuleVersion = '0.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
