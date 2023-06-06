@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentManifestStruct", "DeploymentManifestStruct\DeploymentManifestStruct.csproj", "{A3804944-D16E-41FF-95A4-573366A41F1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMware.TanzuApplicationService.DeploymentManifestStruct", "VMware.TanzuApplicationService.DeploymentManifestStruct\VMware.TanzuApplicationService.DeploymentManifestStruct.csproj", "{A3804944-D16E-41FF-95A4-573366A41F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TASPowerShell", "TASPowerShell\TASPowerShell.csproj", "{C64E6E0A-239B-4366-8AFC-65B4BA0DF1CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMware.TanzuApplicationService.Utility", "VMware.TanzuApplicationService.Utility\VMware.TanzuApplicationService.Utility.csproj", "{C64E6E0A-239B-4366-8AFC-65B4BA0DF1CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

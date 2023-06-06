@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <PackageId>TASPowerShell</PackageId>
-    <RootNamespace>FirstPowerShell</RootNamespace>
+    <PackageId>VMware.TanzuApplicationService.Utility</PackageId>
+    <RootNamespace>VMware.TanzuApplicationService.Utility</RootNamespace>
     <TargetFramework>net7.0</TargetFramework>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DeploymentManifestStruct\DeploymentManifestStruct.csproj" />
+    <ProjectReference Include="..\VMware.TanzuApplicationService.DeploymentManifestStruct\VMware.TanzuApplicationService.DeploymentManifestStruct.csproj" />
   </ItemGroup>
 
   <Target Name="MyPreCompileTarget" AfterTargets="Build">

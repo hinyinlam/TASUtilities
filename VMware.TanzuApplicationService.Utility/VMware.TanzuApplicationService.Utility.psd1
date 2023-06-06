@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = 'TASPowerShell.dll'
+RootModule = 'VMware.TanzuApplicationService.Utility.dll'
 
 # Version number of this module.
 ModuleVersion = '0.1'
@@ -84,7 +84,7 @@ AliasesToExport = @()
 # DscResourcesToExport = @()
 
 # List of all modules packaged with this module
-ModuleList = @( "Test-SampleCmdlet")
+ModuleList = @()
 
 # List of all files packaged with this module
 # FileList = @()
